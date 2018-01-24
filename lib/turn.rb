@@ -1,16 +1,4 @@
 #turn
-def turn(board)
-  puts "Please enter 1-9:"
-  move = gets.strip
-  index = input_to_index(move)
-  if valid_move?(board, index)
-    move(board, index)
-    display_board(board)
-  else
-    puts "Please enter a valid move by inputting an integer from 1-9."
-    turn(board)
-  end
-end
 
 
 
