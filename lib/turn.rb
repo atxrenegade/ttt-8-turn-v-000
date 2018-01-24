@@ -5,8 +5,8 @@ def turn(board)
   index = input_to_index(user_input)
   if valid_move?(board, index)
     move(board, index)
-  else 
-    turn(board)  
+  else
+    turn(board)
 end
 
 
